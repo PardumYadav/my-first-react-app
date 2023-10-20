@@ -1,14 +1,15 @@
 import React from "react";  
-
+import NavBar from "./components/NavBar";
+import Footers from "./components/Footers";
 
   function App(){
-    
   
   return(
-    <>
-  <h1>Hello World!</h1>
-  
-  </>
+    <div>
+ <NavBar />
+  <Footers />
+
+  </div>
     );  
   }
 
